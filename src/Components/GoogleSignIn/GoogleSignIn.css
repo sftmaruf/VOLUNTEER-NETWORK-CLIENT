@@ -1,0 +1,45 @@
+.login-through{
+    box-sizing: border-box;
+    border-radius: 57px;
+    padding: 3px;
+    height: 51px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    background: #FFFFFF;
+    border: 2px solid #C7C7C7;
+    box-sizing: border-box;
+}
+
+.outline-remove:focus{
+    outline: none;
+}
+
+.login-through:active{
+    background: #f2f2f2;
+    transform: translateY(1px);
+}
+
+.prompt-container{
+    width: 100%;
+    color: black;
+    border-bottom: none;
+}
+
+@media(max-width: 522px){
+    .login-through{
+        /* width: auto; */
+        max-width: 234px;
+        text-align: center;
+        /* min-width: 185px; */
+    }
+}
+
+@media(max-width: 185px){
+    .login-through{
+        width: auto;
+        min-width: 0px;
+    }
+}

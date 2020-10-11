@@ -1,0 +1,78 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-container label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-container input{
+    height: 40px;
+    width: 100%;
+    min-width: 150px;
+    border: 0.666667px solid #C9C9C9;
+    padding: 0 20px;
+    border-radius: 3.33333px;
+}
+
+@media(max-width: 408px){
+    .form-container{
+        align-items: flex-start;
+    }
+}
+
+.form-container .coloumn{
+    /* border: 1px solid red; */
+    margin: 30px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px; 
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + .upload-label {
+    display: flex;
+    height: 40px;
+    width: 173px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0084FF;
+    border: 1px solid #0084FF;
+    border-radius: 5px;
+    background: #E5F3FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-row{
+    width: 80%;
+}
+
+#cloud-icon{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.form-container button{
+    position: relative;
+    top: 25%;
+    left: 48%;
+}
+
+@media(max-width: 906px){
+    .form-container button{
+        top: 0;
+        left: 40%;
+    }
+}

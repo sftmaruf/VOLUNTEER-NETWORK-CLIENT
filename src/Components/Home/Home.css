@@ -1,0 +1,36 @@
+.background-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 496px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -82px;
+    background-image: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url(../../resources/images/cover.png);
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    min-height: 700px;
+    height: auto;
+
+    top: -250px;
+    position: relative; 
+}
+
+@media(max-width: 446px){
+    .card-container{
+        top: -200px
+    }
+}
+
+
+
+
+

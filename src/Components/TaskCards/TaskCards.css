@@ -1,0 +1,21 @@
+#card-body{
+    z-index: 1;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    border-radius: 0 0 10px 10px;
+}
+
+#card-picture{
+    border-radius: 10px 10px 0 0;
+    height: 305px;
+}
+
+#card-component{
+    width: 270px;
+    height: 320px;
+    padding: 0;
+    border-radius: 10px;
+    margin: 10px;
+}
